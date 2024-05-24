@@ -1,7 +1,6 @@
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { SigninComponent } from './components/auth/signin/signin.component';
-import { RegisterComponent } from './components/auth/register/register.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProductComponent } from './components/product/product.component';
 import { CarComponent } from './components/car/car.component';
@@ -15,10 +14,6 @@ const routes: Routes = [
   {
     path: 'signin',
     component:SigninComponent
-  },
-  {
-    path: 'register',
-    component:RegisterComponent
   },
   {
     path: 'car',
