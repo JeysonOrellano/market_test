@@ -1,0 +1,40 @@
+[
+    {
+        "id": "1",
+        "name": "Libro one",
+        "description": "Blanco",
+        "imageUrl": [
+            "/assets/images/products/imagen1.jpg"
+        ],
+        "price_vent": 225,
+        "price_regular": 345,
+        "stock":100,
+        "slug": "libro1"
+    },
+    {
+        "id": "2",
+        "name": "Libro two",
+        "description": "Azul",
+    
+        "imageUrl": [
+            "../../assets/images/products/imagen2.jpg"
+        ],
+        "price_vent": 235,
+        "price_regular": 455,
+        "stock":120,
+        "slug": "libro2"
+    },
+    {
+        "id": "3",
+        "name": "Libro three",
+        "description": "samsung",
+        "imageUrl": [
+            "../../assets/images/products/imagen3.jpg"
+        ],
+        "price_vent": 2250,
+        "price_regular": 3450,
+        "stock":150,
+        "slug": "libro3"
+    }
+    
+]

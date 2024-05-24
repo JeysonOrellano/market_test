@@ -1,0 +1,7 @@
+<div class="flex flex-wrap -m-4">
+    <app-product-item  *ngFor="let item of products" [product]="item"></app-product-item>
+    <div *ngIf="!products.length">
+            No hay productos
+    </div>
+  
+  </div>
